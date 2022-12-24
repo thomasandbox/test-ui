@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const s=require("./jsx-runtime-a87a121a.js"),t="_base_1k2y9_1",n={base:t},u=e=>s.jsxRuntimeExports.jsx("input",{...e,className:n.base});exports.Input=u;

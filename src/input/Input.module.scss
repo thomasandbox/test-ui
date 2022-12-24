@@ -1,0 +1,9 @@
+.base {
+  color: white;
+  background-color: blue;
+
+  &:focus {
+    color: black;
+    background-color: white;
+  }
+}

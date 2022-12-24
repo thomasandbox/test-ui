@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const n=require("./jsx-runtime-a87a121a.js"),b="_base_1nvbd_1",o="_baseDark_1nvbd_8",t={base:b,baseDark:o},r=({children:e,isDark:s=!1,...a})=>n.jsxRuntimeExports.jsx("button",{type:"button",...a,className:s?t.baseDark:t.base,children:e});exports.Button=r;

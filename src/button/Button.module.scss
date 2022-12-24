@@ -1,0 +1,12 @@
+.base {
+  background-color: red;
+
+  &:hover {
+    background-color: yellow;
+  }
+}
+
+.baseDark {
+  color: black;
+  background-color: white;
+}
