@@ -1,6 +1,6 @@
 {
   "name": "@thomathings/test-ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A test UI library using CSS Modules",
   "license": "MIT",
   "scripts": {
