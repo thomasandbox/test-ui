@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 12281 -c .storybook --ci",
-    "build": "pnpm clean && pnpm vite build",
+    "build": "pnpm clean && run-p build:*",
+    "build:component": "pnpm vite build",
+    "build:types": "tsc -p tsconfig.build.json",
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "test": "echo \"empty test\"",
